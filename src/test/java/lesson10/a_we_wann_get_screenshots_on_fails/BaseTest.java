@@ -36,7 +36,7 @@ public class BaseTest extends SimpleAPI {
                     + "/screenshots/" + screenshot.getName();
 
             try {
-                FileUtils.copyFile(screenshot,new File(path))
+                FileUtils.copyFile(screenshot,new File(path));
             } catch (IOException e) {
                 e.printStackTrace();
             }
